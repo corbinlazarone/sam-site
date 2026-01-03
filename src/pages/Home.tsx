@@ -1,7 +1,6 @@
 import { motion } from 'framer-motion';
 import { TypeAnimation } from 'react-type-animation';
 import SpotifyPlaying from '../components/SpotifyPlaying';
-import YouTubeLatest from '../components/YouTubeLatest';
 import { usePageTitle } from '../hooks/usePageTitle';
 import { FadeInSection } from '../utils/FadeInSection';
 
@@ -41,14 +40,6 @@ const Home = () => {
       </FadeInSection>
 
       <FadeInSection delay={0.2}>
-        <motion.section className="space-y-1">
-          <div className="py-4">
-            <YouTubeLatest />
-          </div>
-        </motion.section>
-      </FadeInSection>
-
-      <FadeInSection delay={0.4}>
         <motion.section className="mt-4">
           <div>
             <SpotifyPlaying />

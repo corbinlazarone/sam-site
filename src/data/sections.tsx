@@ -117,12 +117,7 @@ export const sections = [
       content: (
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-12">
           {[
-            {
-              title: "YouTube",
-              description: "documenting my life as a software engineer",
-              stats: "19 videos",
-              color: "rose"
-            },
+
             {
               title: "Real Estate Investing",
               description: "playing monopoly but with real money",
