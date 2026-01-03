@@ -19,7 +19,7 @@ const Home = () => {
           >
             <TypeAnimation
               sequence={[
-                'hello, Phillip here',
+                'hello, Samantha here',
               ]}
               wrapper="h1"
               cursor={true}
